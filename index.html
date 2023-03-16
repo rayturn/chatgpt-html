@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ai - Chat sbaliyun</title>
+    <title>RayMix AI - Chat GPT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>#chatgpt-response { font-family: "等线"; font-size: 20px; color: #0000FF; font-weight: bold; }</style>
@@ -44,7 +44,7 @@
         var url = "https://api.openai.com/v1/chat/completions";
         xhr.open("POST", url, true);
         xhr.setRequestHeader("Content-Type", "application/json");
-        xhr.setRequestHeader("Authorization", "Bearer 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");
+        xhr.setRequestHeader("Authorization", "Bearer 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");
         xhr.onreadystatechange = function() {
           if (xhr.readyState === 4 && xhr.status === 200) {
             var json = JSON.parse(xhr.responseText);
